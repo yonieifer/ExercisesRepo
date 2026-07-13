@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/yonieifer-svg/ExercisesRepo#readme",
   "dependencies": {
-    "analiza-sync": "^1.0.1"
+    "analiza-sync": "^1.0.1",
+    "express": "^5.2.1"
   }
 }
