@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:16
+    password: secret
+    ports:
+      - "8080:80"
+  
+  app:
+    image: node:20-alpine
+    volumes:
+      - ./:/app
+    depends_on: 
+      - db
+    command: node -e "setInterval(() => console.log('app running'), 2000)"
+    
