@@ -1,0 +1,18 @@
+p {
+    color: blue;
+}
+
+.highlight {
+    color: yellow;
+}
+
+#title {
+    color: green;
+}
+
+p.highlight {
+    color: red;
+}
+
+.card {color: blue;}
+.card {color: red;}

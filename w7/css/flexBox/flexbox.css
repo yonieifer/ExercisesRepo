@@ -1,0 +1,69 @@
+.father1 {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.child1 {
+    color: blue;
+    background-color: cyan;
+    width: 200px;
+}
+
+#c1 {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+#c2 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: yellow;
+}
+
+#c3 {
+    display: flex;
+    flex-direction: row;
+    background-color: green;
+}
+
+#c4 {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: red;
+}
+
+#exe3 {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+}
+
+#exe4 {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+#a {
+    align-self: start;
+}
+
+#e {
+    align-self: flex-end;
+}
+
+.exe5 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blanchedalmond;
+}
+
+.box {
+    width: 150px;
+    background-color: steelblue;
+    border: solid blue;
+}
+
